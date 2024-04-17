@@ -1,9 +1,9 @@
-// place files you want to import through the `$lib` alias in this folder.
-
 import SideMenu from './Components/Menu/SideMenu.svelte';
 import ProductCard from './Components/ProductCard/ProductCard.svelte';
+import Input from './Components/Input/Input.svelte';
+import Button from './Components/Button/Button.svelte';
 
 //Icons
 import Icon from './Components/Icons/Icon.svelte';
 
-export { SideMenu, Icon, ProductCard };
+export { SideMenu, Icon, ProductCard, Input, Button };
